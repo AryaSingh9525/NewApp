@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="689dp"
+        android:foregroundGravity="center">
+        <!--<Button-->
+            <!--android:id="@+id/b"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="66dp"-->
+            <!--android:layout_marginTop="600dp"-->
+            <!--android:onClick="call"-->
+            <!--android:text="START DOWNLOAD" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="22dp"
+            android:layout_height="10dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="22dp" />
+
+
+
+    </WebView>
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E53935"
+        android:text="National News"
+        android:textColor="#FFFEFE"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="600dp"
+        android:onClick="call"
+        android:text="START DOWNLOAD" />
+
+
+
+</RelativeLayout>
